@@ -14,12 +14,19 @@ h2{
     padding-top: 2%;
     margin: 0;
 }
-body { font-size: 16px; background-color: #a4e9e5;color:rgb(35, 35, 35);font-family: Arial, Helvetica, sans-serif;}
+
+body { font-size: 16px; 
+    background-color: #a4e9e5;
+    color:rgb(35, 35, 35);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;}
 
 .hidden { display: none; }
 
 .svg-grid {
     display: grid;
+    grid-column: 2 / span 2;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
